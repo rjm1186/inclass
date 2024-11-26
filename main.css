@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f; /* Dark blue */
+    color: white;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366; /* Navy blue */
+    border-bottom: 4px solid white;
+}
+
+header h1, header h3, header h4 {
+    margin: 5px 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00aced; /* Light blue for hover */
+}
+
+/* Sidebar / Aside */
+aside {
+    background-color: #002b5c; /* Deep dark blue */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center; /* Centers the content, including the image */
+}
+
+aside img {
+    max-width: 100%; /* Ensures the image doesn't exceed its container */
+    height: auto; /* Maintains the image's aspect ratio */
+    border: 3px solid white; /* Adds a border */
+    border-radius: 5px; /* Rounds the edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Adds a shadow for a nice effect */
+    margin-bottom: 20px; /* Adds space below the image */
+}
+
+/* Section Content */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #003366; /* Navy blue */
+    border-radius: 5px;
+    line-height: 1.6;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-top: 4px solid white;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    filter: invert(100%); /* Makes the logos white */
+    transition: transform 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.2); /* Slight zoom effect */
+}
